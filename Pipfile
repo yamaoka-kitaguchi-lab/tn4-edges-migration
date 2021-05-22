@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+junos-eznc = "*"
+jinja2 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+migrate = "python migrate.py"
